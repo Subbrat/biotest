@@ -2,17 +2,65 @@
 <html lang="en">
 
 <head>
-    <title>test</title>
+    <title>Life</title>
     <meta charset="UTF-8">
-    <link rel="shortcut icon" href="./imges/">
+    <link rel="shortcut icon" href="../subbrat.github.io/imges/ic.png">
     <meta name="viewport"
         content="width=device-width,height=device-height, initial-scale=1, maximum-scale=1, user-scalable=0">
     <link rel="stylesheet" href="./../el/css/s6css.css">
+    <link rel="stylesheet" href="./../el/js/s6.js">
     <link rel="stylesheet" href="./../el/css/anim.css">
     <link rel="stylesheet" href="./../el/css/ga.css">
     <link rel="stylesheet" href="./css/css.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <style>
+    </style>
 </head>
 
-<body class="s6-content">
-    <h1>hello void</h1>
+<body>
+    <!-- Navbar (sit on top) -->
+    <div class="s6-top ">
+        <div class="s6-bar s6-black s6-text-white s6-card" id="myNavbar">
+            <a href="#top" class="s6-bar-item s6-button s6-wide">Amrita Kumari Samal</a>
+            <div class="s6-right s6-hide-small">
+                <a href="#top" class="s6-bar-item s6-button">Home</a>
+                <a href="#about" class="s6-bar-item s6-button">About</a>
+                <a href="#team" class="s6-bar-item s6-button"></i>Articles</a>
+                <a href="#work" class="s6-bar-item s6-button">Headlines</a>
+                <a href="#pricing" class="s6-bar-item s6-button">Events</a>
+            </div>
+            <a href="javascript:void(0)" class="s6-bar-item s6-button s6-right s6-hide-large s6-hide-medium"
+                onclick="s6_open()">
+                <i class="fa fa-bars"></i>
+            </a>
+        </div>
+    </div>
+    <nav class="s6-sidebar s6-bar-block s6-black s6-card s6-animate-left s6-hide-medium s6-hide-large"
+        style="display:none" id="mySidebar">
+        <a href="javascript:void(0)" onclick="s6_close()"
+            class="s6-bar-item s6-button s6-large s6-right s6-padding-16">Close
+            X</a>
+        <a href="#top" class="s6-bar-item s6-button">Home</a>
+        <a href="#about" class="s6-bar-item s6-button">About</a>
+        <a href="#team" class="s6-bar-item s6-button"></i>Articles</a>
+        <a href="#work" class="s6-bar-item s6-button">Headlines</a>
+        <a href="#pricing" class="s6-bar-item s6-button">Events</a>
+    </nav>
+    <script>
+        // Toggle between showing and hiding the sidebar when clicking the menu icon
+        var mySidebar = document.getElementById("mySidebar");
+        function s6_open() {
+            if (mySidebar.style.display === 'block') {
+                mySidebar.style.display = 'none';
+            } else {
+                mySidebar.style.display = 'block';
+            }
+        }
+        // Close the sidebar with the close button
+        function s6_close() {
+            mySidebar.style.display = "none";
+        }
+    </script>
 </body>
+
+</html>
