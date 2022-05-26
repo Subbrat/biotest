@@ -47,6 +47,7 @@
 .rghtxt {
     text-align: left;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    word-spacing: 2px;
     padding-left: 5%;
     padding-right: 5%;
 }
