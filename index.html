@@ -16,6 +16,8 @@
     <link rel="stylesheet" href="./css/css2.css">
     <link rel="stylesheet" href="./css/flex.css">
     <link rel="stylesheet" href="./css/split.css">
+    <link rel="stylesheet" href="./css/divgrid.css">
+    <link rel="stylesheet" href="./css/divgridinternal.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 </head>
 
@@ -108,24 +110,82 @@
             <br>
             <br>
         </div>
-        <!-- seg 3  -->
+        <!-- seg 3 -->
         <div class="s6-white s6-text-black">
-            <!-- text  -->
+            <!-- text -->
+            <div class="s6-display-container" style="padding: 2%;">
+                <!-- 1st div -->
+                <div class="gridsli s6-container s6-white" style="width:100%">
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <h3>Card 1</h3>
+                                <p>Some text</p>
+                                <p>Some text</p>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <h3>Card 2</h3>
+                                <p>Some text</p>
+                                <p>Some text</p>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="column">
+                            <div class="card">
+                                <h3>Card 3</h3>
+                                <p>Some text</p>
+                                <p>Some text</p>
+                            </div>
+                        </div>
+
+                        <div class="column">
+                            <div class="card">
+                                <h3>Card 4</h3>
+                                <p>Some text</p>
+                                <p>Some text</p>
+                            </div>
+                        </div>
+                    </div>
 
 
 
-
-
-
-            <!-- text  -->
+                </div>
+                <!-- 2nd div -->
+                <div class="gridsli s6-container s6-brown">
+                    <h1><b>Did You Know?</b></h1>
+                    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+                </div>
+                <!-- 3rd div -->
+                <div class="gridsli s6-container s6-orange">
+                    <h1><b>Did You Know?</b></h1>
+                    <h1><i>We plan to sell trips to the moon in the 2020s</i></h1>
+                </div>
+                <br>
+                <br>
+                <div class="s6-center s6-container s6-light-grey s6-section s6-large s6-text-white s6-display-bottommiddle"
+                    style="width:100%">
+                    <!-- <div class="s6-left s6-hover-text-khaki" onclick="plusDivs(-1)">&#10094;</div> -->
+                    <div class="s6-left s6-text-pink s6-hover-text-khaki" onclick="plusDivs(-1)"><i
+                            class="fa fa-left-long"></i>
+                    </div>
+                    <!-- <div class="s6-right s6-hover-text-khaki" onclick="plusDivs(1)">&#10095;</div> -->
+                    <div class="s6-right s6-text-pink s6-hover-text-khaki" onclick="plusDivs(1)"><i
+                            class="fa fa-right-long"></i>
+                    </div>
+                    <span class="s6-badge demo s6-border s6-transparent s6-hover-white" onclick="currentDiv(1)"></span>
+                    <span class="s6-badge demo s6-border s6-transparent s6-hover-white" onclick="currentDiv(2)"></span>
+                    <span class="s6-badge demo s6-border s6-transparent s6-hover-white" onclick="currentDiv(3)"></span>
+                </div>
+            </div>
         </div>
-
-
-
-
-
-
-        <!-- main end  -->
+        <!-- text -->
+    </div>
+    <!-- main end -->
     </div>
     <!-- footer start -->
     <footer class="s6-container s6-padding-16 s6c-ugr">
@@ -174,6 +234,7 @@
     <script src="./js/main.js"></script>
     <script src="./js/slider.js"></script>
     <script src="./js/count.js"></script>
+    <script src="./js/divgrid.js"></script>
 </body>
 
 </html>

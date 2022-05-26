@@ -1,0 +1,15 @@
+.mySlides {
+    display: none
+}
+
+.s6-left,
+.s6-right,
+.s6-badge {
+    cursor: pointer
+}
+
+.s6-badge {
+    height: 13px;
+    width: 13px;
+    padding: 0
+}

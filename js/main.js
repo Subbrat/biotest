@@ -1,6 +1,6 @@
-{
-    document.oncontextmenu = new Function("return false");
-}
+// {
+//     document.oncontextmenu = new Function("return false");
+// }
 {
     var mySidebar = document.getElementById("mySidebar");
     function s6_open() {
