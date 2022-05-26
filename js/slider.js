@@ -1,4 +1,4 @@
-var slideIndex = 0;
+var sldid = 0;
 carousel();
 
 function carousel() {
@@ -7,8 +7,8 @@ function carousel() {
     for (i = 0; i < x.length; i++) {
         x[i].style.display = "none";
     }
-    slideIndex++;
-    if (slideIndex > x.length) { slideIndex = 1 }
-    x[slideIndex - 1].style.display = "block";
+    sldid++;
+    if (sldid > x.length) { sldid = 1 }
+    x[sldid - 1].style.display = "block";
     setTimeout(carousel, 4000);
 }

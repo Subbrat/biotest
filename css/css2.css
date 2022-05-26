@@ -1,5 +1,7 @@
-.libu {
+.libu,
+li {
     list-style: none;
+
 }
 
 a {
