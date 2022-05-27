@@ -33,3 +33,22 @@
     text-align: center;
     background-color: #f1f1f1;
 }
+
+/*
+ */
+.cardim {
+    width: 70%;
+}
+
+.capt {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: teal;
+}
+
+.redmor {
+    color: green;
+    font-weight: bold;
+}
+
+/*  */
+/*  */
