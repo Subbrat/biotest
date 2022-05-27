@@ -50,5 +50,10 @@
     font-weight: bold;
 }
 
+.myBtn_multi {
+    border: none;
+    cursor: pointer;
+}
+
 /*  */
 /*  */

@@ -24,13 +24,9 @@
         }
     });
 }
-
-
-
 {
     document.addEventListener("DOMContentLoaded", function () {
         var t = document.querySelector(".s6slide");
-
         function e(n) {
             var o = window.pageYOffset,
                 a = Math.floor(Date.now());
