@@ -1,2 +1,2 @@
 # biotest
-subbrat.github.io/biotest
+https://subbrat.github.io/biotest
